@@ -1,0 +1,255 @@
+/** @format */ /** @format */ /** @format */ /** @format */ /** @format */
+.header__container {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.header__logo img {
+  width: 150px;
+  height: 150px;
+}
+.header__nav__container {
+  display: flex;
+  align-items: center;
+}
+.header__nav__container li {
+  list-style: none;
+  margin: 0 15px;
+}
+.header__nav__container a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/** @format */
+.header__slider {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ddd;
+}
+
+.slider-inner {
+  height: 100%;
+  transition: transform 0.45s ease;
+}
+
+.arrow {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  transition: transform ease-in 0.1s;
+}
+
+.arrow.left {
+  left: 25px;
+}
+
+.arrow.left > i {
+  transform: translateX(-2px);
+}
+
+.arrow.right {
+  right: 25px;
+}
+
+.arrow.right > i {
+  transform: translateX(2px);
+}
+
+.arrow.left:hover,
+.arrow.right:hover {
+  transform: scale(1.1);
+}
+
+.slide {
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.change {
+  color: white;
+  font-size: 25px;
+}
+
+.scroll-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  width: 50px;
+  transform: translate(-50%, 0);
+  z-index: 5;
+}
+
+.scroll-arrow .arrow-first,
+.scroll-arrow .arrow-second,
+.scroll-arrow .arrow-third {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.scroll-arrow .arrow-first {
+  top: 0px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.2);
+  transition-delay: 1.5s;
+}
+
+.scroll-arrow .arrow-second {
+  top: 17px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition-delay: 1.7s;
+}
+
+.scroll-arrow .arrow-third {
+  top: 20px;
+  transition-delay: 1.9s;
+}
+
+.scroll-arrow .arrow-mouse {
+  color: #111;
+  font-size: 25px;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 0.4s ease;
+  transition-delay: 2.5s;
+  opacity: 1;
+  z-index: 5;
+}
+
+.os-intro-scroll-bg {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  transition: all 0.6s ease;
+  transition-delay: 2s;
+}
+
+.os-intro-scroll-bg path {
+  fill: #fff;
+  stroke: #fff;
+}
+
+/**
+ * ! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css
+ *
+ * @format
+ */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Time New Roman", serif;
+  color: #1e1e1e;
+  word-break: break-word;
+  background-color: #fff;
+}
+
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input:focus,
+select,
+textarea {
+  outline: none;
+}/*# sourceMappingURL=index.css.map */

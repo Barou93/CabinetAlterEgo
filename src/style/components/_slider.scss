@@ -1,0 +1,151 @@
+/** @format */
+
+.header__slider {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ddd;
+}
+
+.slider-inner {
+  height: 100%;
+  transition: transform 0.45s ease;
+}
+
+.arrow {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  transition: transform ease-in 0.1s;
+}
+
+.arrow.left {
+  left: 25px;
+}
+.arrow.left > i {
+  transform: translateX(-2px);
+}
+
+.arrow.right {
+  right: 25px;
+}
+.arrow.right > i {
+  transform: translateX(2px);
+}
+
+.arrow.left:hover,
+.arrow.right:hover {
+  transform: scale(1.1);
+}
+
+.slide {
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  &__content {
+    position: absolute;
+    top: 30%;
+    left: 150px;
+    max-width: 600px;
+    font-family: $secondaryfont;
+  }
+  &__title {
+    font-size: 40px;
+    color: white;
+    white-space: pre-wrap;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+  }
+  &__cta-btn {
+    display: inline-block;
+    background-color: white;
+    padding: 8px 8px;
+    width: 180px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.change {
+  color: white;
+  font-size: 25px;
+}
+
+.scroll-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  width: 50px;
+  transform: translate(-50%, 0);
+  z-index: 5;
+}
+
+.scroll-arrow .arrow-first,
+.scroll-arrow .arrow-second,
+.scroll-arrow .arrow-third {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.scroll-arrow .arrow-first {
+  top: 0px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.2);
+  transition-delay: 1.5s;
+}
+
+.scroll-arrow .arrow-second {
+  top: 17px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition-delay: 1.7s;
+}
+
+.scroll-arrow .arrow-third {
+  top: 20px;
+  transition-delay: 1.9s;
+}
+.scroll-arrow .arrow-mouse {
+  color: #111;
+  font-size: 25px;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: all 0.4s ease;
+  transition-delay: 2.5s;
+  opacity: 1;
+  z-index: 5;
+}
+.os-intro-scroll-bg {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  transition: all 0.6s ease;
+  transition-delay: 2s;
+}
+
+.os-intro-scroll-bg path {
+  fill: #fff;
+  stroke: #fff;
+}

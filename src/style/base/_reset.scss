@@ -4,6 +4,11 @@
  * @format
  */
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 html,
 body {
   box-sizing: border-box;
@@ -12,10 +17,7 @@ body {
   overflow-x: hidden;
   font-family: $primaryfont;
   color: $blackcolor;
-  //scroll-margin: 100px 0 0 0;
-
   word-break: break-word;
-  //background-color: #f7fafb;
   background-color: #fff;
 }
 p,
