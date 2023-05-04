@@ -1,0 +1,77 @@
+/** @format */
+
+.contact {
+  font-family: $secondaryfont;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  &__form {
+    width: 100%;
+    &__name__content,
+    &__details__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px 0;
+      width: 100%;
+      &__first,
+      &__last {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        label {
+          margin-bottom: 8px;
+          font-size: 18.5px;
+          font-weight: bold;
+        }
+        input {
+          padding: 14px 10px;
+          border: 1px solid #111;
+          display: block;
+          width: calc(100% - 25px);
+        }
+      }
+    }
+    &__textarea {
+      margin-bottom: 25px;
+      label {
+        margin-bottom: 8px;
+        font-size: 18.5px;
+        font-weight: bold;
+      }
+      textarea {
+        resize: none;
+        padding: 20px 12px;
+        width: calc(100% - 25px);
+        border: 1px solid #111;
+      }
+    }
+  }
+  &__infos {
+    margin: 0 20px;
+    h1 {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 21px;
+      font-weight: bold;
+    }
+    &__lines {
+      p {
+        font-size: 17px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.submit {
+  background: #111;
+  font-size: 18.5px;
+  padding: 8px 5px;
+  width: 25%;
+  color: #fff;
+}

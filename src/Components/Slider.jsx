@@ -53,10 +53,10 @@ const Slider = () => {
                   key={slide}
                   className="slide"
                   style={{
-                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url('${slide.img}')`,
+                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('${slide.img}')`,
                   }}
                 >
-                  <div className="slide__content">
+                  <div className={slide.class}>
                     <p className="slide__title">{slide.title}</p>
                     <Link to="/le-cabinet" className="slide__cta-btn">
                       {slide.cta}
