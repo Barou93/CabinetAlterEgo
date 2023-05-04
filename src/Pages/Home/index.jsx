@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
+import Slider from "../../Components/Slider";
 import ApimLogo from "../../style/assets/img/apim.png";
 import SamaLogo from "../../style/assets/img/sama.png";
 import SupLogo from "../../style/assets/img/la_superette.png";
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <Slider />
       <div className="home">
         <div className="home__content">
           <h1 className="home__title">Vision</h1>
@@ -50,13 +52,12 @@ const Home = () => {
           </div>
           <div className="home__expertise__details">
             <div className="home__expertise__values">
-              <i className="fa-solid fa-comments icon"></i>
+              <i className="fa-solid fa-stairs icon"></i>
               <hgroup>
-                <h2>Communication publique et digitale</h2>
+                <h2>Stratégie</h2>
                 <h3>
-                  Le cabinet AlterEgo conseille les entreprises et les
-                  organisations professionnelles dans leur stratégie de
-                  communications.
+                  Nous travaillons avec vous pour concevoir une stratégie sur
+                  mesure, adaptée à vos besoins et à vos objectifs.
                 </h3>
               </hgroup>
               <Link className="btn-cta" to="/communication">
@@ -83,7 +84,7 @@ const Home = () => {
               <hgroup>
                 <h2>Formations</h2>
                 <h3>
-                  nous proposons des formations pratiques pour vous aider à
+                  Nous proposons des formations pratiques pour vous aider à
                   mettre en œuvre votre stratégie d’expérience client et pour
                   renforcer les compétences de votre équipe.
                 </h3>

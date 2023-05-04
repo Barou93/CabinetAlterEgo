@@ -1,0 +1,28 @@
+/** @format */
+
+.main__bg {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ddd;
+
+  &__img {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__content {
+    position: absolute;
+    top: 60%;
+    left: 150px;
+    &__title {
+      font-family: $secondaryfont;
+      font-size: 35px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}

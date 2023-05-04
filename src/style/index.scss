@@ -4,11 +4,17 @@
 @import "./base/typography";
 @import "./utils/variables";
 @import "./layout/header";
+@import "./layout/submenu";
 @import "./layout/footer";
 @import "./pages/home";
 @import "./pages/cabinet";
 @import "./pages/expertise";
+@import "./pages/audit";
+@import "./pages/formation";
+@import "./pages/conferences";
+@import "./pages/strategie";
 @import "./pages/teams";
 @import "./pages/contact";
 @import "./components/slider";
+@import "./components/mainbg";
 @import "./base/reset";

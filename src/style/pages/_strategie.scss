@@ -1,0 +1,41 @@
+/** @format */
+
+.strategie__details {
+  &__content {
+    display: flex;
+  }
+  &__infos {
+    p {
+      font-size: 18.5px;
+      margin: 25px 0;
+    }
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+.strategie__icon {
+  margin-right: 50px;
+  p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+.icon-image {
+  font-size: 60px;
+}
+
+.list-container {
+  li {
+    margin: 14px 0;
+    font-size: 17px;
+    list-style: disc;
+    font-weight: bold;
+  }
+}
+.bg {
+  background-color: #ccc;
+}

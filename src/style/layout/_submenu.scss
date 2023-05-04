@@ -1,0 +1,47 @@
+/** @format */
+
+.header__sublist {
+  display: none;
+
+  z-index: 10;
+  &__container {
+  }
+  &__items {
+    margin: 0 !important;
+    text-align: center;
+    width: 100%;
+    padding: 12px 8px;
+    border-bottom: 1px solid #ccc;
+    &:hover {
+      background-color: #ddd;
+    }
+    a {
+      color: #000;
+    }
+    p {
+      color: #000;
+    }
+  }
+}
+
+.header__sublist.open {
+  display: block;
+  position: fixed;
+  top: 80px;
+  right: 100px;
+  width: 250px;
+  height: auto;
+  background: #fff;
+  box-shadow: $boxShadow-2;
+}
+
+.list-sublist {
+  position: relative;
+}
+
+.down-list {
+  position: absolute;
+  left: calc(100% + 5px);
+  top: 5px;
+  font-size: 12px;
+}

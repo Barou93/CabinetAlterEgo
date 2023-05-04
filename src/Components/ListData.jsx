@@ -12,23 +12,23 @@ export const ListData = [
     path: "/le-cabinet",
   },
   {
-    title: "Expertises",
+    title: "Nos services",
     subList: [
       {
-        title: "Communication publique et politique",
-        path: "/communication",
+        title: "Audit",
+        path: "/audit",
       },
       {
-        title: "Organisation des conférences",
-        path: "/organisation-de-conferences",
+        title: "Stratégies",
+        path: "/strategies",
       },
       {
         title: "Formations",
         path: "/formations",
       },
       {
-        title: "Evenementiels",
-        path: "/evenementiels",
+        title: "Organisation de conférences",
+        path: "/conferences",
       },
     ],
   },

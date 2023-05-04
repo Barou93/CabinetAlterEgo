@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import MobileLogo from "../../style/assets/img/logo/mobile/Logo-Alter-Ego-316x316px-White.png";
 import { ListData } from "../ListData";
 import SubList from "../SubList";
-import Slider from "../Slider";
 
 const Header = () => {
   return (
@@ -22,10 +21,10 @@ const Header = () => {
             {ListData.map((list, index) => {
               if (list.subList) {
                 return (
-                  <li key={index}>
+                  <li key={index} className="list-sublist">
                     <Link to={list.path || "#"}>
                       <p>{list.title} </p>
-                      <SubList lists={list} index={index} />
+                      <SubList item={list} index={index} />
                     </Link>
                   </li>
                 );
@@ -42,7 +41,6 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <Slider />
     </div>
   );
 };
