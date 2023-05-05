@@ -44,16 +44,16 @@
 
 .list-sublist {
   position: relative;
+  display: inline-block;
 }
 
 .down-list {
   position: absolute;
-  left: calc(100% + 5px);
-  top: 5px;
+  bottom: 5px;
+  transform: translate(50%, 50%);
   font-size: 12px;
   @include mobile-first {
-    left: calc(60% + 2.5px);
-    top: 7px;
+    top: 0;
   }
 }
 

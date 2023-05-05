@@ -24,7 +24,7 @@ const Header = () => {
               if (list.subList) {
                 return (
                   <li key={index} className="list-sublist sub__link">
-                    <p>{list.title} </p>
+                    {list.title}
                     <SubList item={list} index={index} />
                   </li>
                 );
