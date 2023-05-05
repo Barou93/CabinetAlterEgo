@@ -89,13 +89,12 @@ const Cabinet = () => {
             <div className="cabinet__more-infos__container__content">
               <div className="cabinet__more-infos__content">
                 <div className="cabinet__more-infos__content__box">
-                  <i className="fa-solid fa-comments icon icon-color"></i>
+                  <i className="fa-solid fa-stairs icon icon-color"></i>
                   <hgroup>
-                    <h2>Communication publique et digitale</h2>
+                    <h2>Stratégies</h2>
                     <h3>
-                      Le cabinet AlterEgo conseille les entreprises et les
-                      organisations professionnelles dans leur stratégie de
-                      communications.
+                      Nous travaillons avec vous pour concevoir une stratégie
+                      sur mesure, adaptée à vos besoins et à vos objectifs.
                     </h3>
                   </hgroup>
                   <Link className="btn-cta new" to="/communication">

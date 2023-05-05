@@ -2,7 +2,7 @@
 
 .header {
   &__container {
-    background-color: #000;
+    background-color: $primarycolor;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@
       left: 0;
       width: 100%;
       height: calc(100vh - 20px);
-      background-color: #000;
+      background-color: $primarycolor;
       display: flex;
       flex-direction: column;
       justify-content: center;
