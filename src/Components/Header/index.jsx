@@ -1,13 +1,15 @@
 /** @format */
 
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 
 import MobileLogo from "../../style/assets/img/logo/mobile/Logo-Alter-Ego-316x316px-White.png";
 import { ListData } from "../ListData";
 import SubList from "../SubList";
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => setShowMenu(!showMenu);
   return (
     <div className="header">
       <div className="header__container">
@@ -16,16 +18,14 @@ const Header = () => {
             <img src={MobileLogo} alt="logo du cabinet alter ego" />
           </Link>
         </div>
-        <nav className="header__nav">
+        <nav className={`header__nav ${showMenu ? "menu-open" : ""}`}>
           <ul className="header__nav__container">
             {ListData.map((list, index) => {
               if (list.subList) {
                 return (
-                  <li key={index} className="list-sublist">
-                    <Link to={list.path || "#"}>
-                      <p>{list.title} </p>
-                      <SubList item={list} index={index} />
-                    </Link>
+                  <li key={index} className="list-sublist sub__link">
+                    <p>{list.title} </p>
+                    <SubList item={list} index={index} />
                   </li>
                 );
               } else {
@@ -40,6 +40,9 @@ const Header = () => {
             })}
           </ul>
         </nav>
+        <div className="header__menu-icon" onClick={toggleMenu}>
+          <i className="fa-solid fa-bars bar-burger"></i>
+        </div>
       </div>
     </div>
   );
