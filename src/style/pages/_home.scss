@@ -7,6 +7,9 @@
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
+    @include mobile-first {
+      max-width: 420px;
+    }
   }
   &__title {
     font-size: 45px;
@@ -23,7 +26,9 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-
+    @include mobile-first {
+      flex-direction: column-reverse;
+    }
     &__container {
       background-color: black;
       width: 100%;
@@ -37,10 +42,16 @@
         font-size: 35px;
         font-weight: bold;
         margin-bottom: 17px;
+        @include mobile-first {
+          margin-top: -25px;
+        }
       }
       h3 {
         margin-top: 50px;
         font-size: 22px;
+        @include mobile-first {
+          margin-top: 15px;
+        }
       }
       &__cta {
         display: inherit;
@@ -50,6 +61,9 @@
         width: 150px;
         padding: 8px 8px;
         text-align: center;
+        @include mobile-first {
+          margin-top: 20px;
+        }
       }
     }
     &__img {
@@ -68,6 +82,9 @@
       max-width: 500px;
       margin: 0 auto;
       text-align: center;
+      @include mobile-first {
+        max-width: 420px;
+      }
     }
     &__title {
       font-size: 35px;
@@ -81,6 +98,9 @@
       display: flex;
       align-items: center;
       margin-top: 50px;
+      @include mobile-first {
+        flex-direction: column;
+      }
     }
     &__values {
       padding: 12px 15px;
@@ -88,6 +108,9 @@
       width: 400px;
       border-top: 1px solid #ddd;
       border-right: 1px solid #ddd;
+      @include mobile-first {
+        border: 1px solid #ddd;
+      }
       text-align: center;
       hgroup {
         margin-bottom: 25px;
@@ -116,6 +139,9 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
+      @include mobile-first {
+        flex-direction: column-reverse;
+      }
 
       img {
         width: 250px;

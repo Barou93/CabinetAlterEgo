@@ -17,7 +17,7 @@ const Slider = () => {
         setIndex(index + 1);
         setTranslate(translate - 100);
       }
-    }, 3500);
+    }, 2500);
     return () => clearInterval(interval);
   }, [index, translate]);
   const moveRight = () => {

@@ -3,6 +3,9 @@
 .strategie__details {
   &__content {
     display: flex;
+    @include mobile-first {
+      flex-direction: column;
+    }
   }
   &__infos {
     p {

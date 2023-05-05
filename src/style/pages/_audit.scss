@@ -10,6 +10,9 @@
       align-items: center;
       justify-content: space-between;
       margin: 50px 0;
+      @include mobile-first {
+        flex-direction: column;
+      }
     }
     &__content {
       border: 1px solid #ccc;
@@ -24,6 +27,7 @@
       }
     }
   }
+
   &__more-infos {
     &__content {
       display: flex;
