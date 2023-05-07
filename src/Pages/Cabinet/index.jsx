@@ -97,7 +97,7 @@ const Cabinet = () => {
                       sur mesure, adaptée à vos besoins et à vos objectifs.
                     </h3>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/strategies">
                     En savoir plus
                   </Link>
                 </div>
@@ -111,7 +111,7 @@ const Cabinet = () => {
                       points à améliorer de votre parcours client actuel.
                     </h3>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/audit">
                     En savoir plus
                   </Link>
                 </div>
@@ -127,7 +127,7 @@ const Cabinet = () => {
                       pour renforcer les compétences de votre équipe.
                     </h3>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/formations">
                     En savoir plus
                   </Link>
                 </div>
@@ -141,7 +141,7 @@ const Cabinet = () => {
                       améliorer la relation client.
                     </h3>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/conferences">
                     En savoir plus
                   </Link>
                 </div>

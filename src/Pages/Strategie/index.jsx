@@ -117,7 +117,7 @@ const Strategie = () => {
                   <hgroup>
                     <h2>Audit</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/audit">
                     En savoir plus
                   </Link>
                 </div>
@@ -126,7 +126,7 @@ const Strategie = () => {
                   <hgroup>
                     <h2>Formations</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/formations">
                     En savoir plus
                   </Link>
                 </div>
@@ -135,7 +135,7 @@ const Strategie = () => {
                   <hgroup>
                     <h2>Organisation de conférences</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/conferences">
                     En savoir plus
                   </Link>
                 </div>

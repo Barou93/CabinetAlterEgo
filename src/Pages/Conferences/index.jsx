@@ -47,7 +47,7 @@ const Conferences = () => {
                   <hgroup>
                     <h2>Stratégies</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/strategies">
                     En savoir plus
                   </Link>
                 </div>
@@ -56,7 +56,7 @@ const Conferences = () => {
                   <hgroup>
                     <h2>Formations</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/formations">
                     En savoir plus
                   </Link>
                 </div>
@@ -65,7 +65,7 @@ const Conferences = () => {
                   <hgroup>
                     <h2>Audit</h2>
                   </hgroup>
-                  <Link className="btn-cta new" to="/communication">
+                  <Link className="btn-cta new" to="/audit">
                     En savoir plus
                   </Link>
                 </div>
