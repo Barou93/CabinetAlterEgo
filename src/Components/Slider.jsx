@@ -8,18 +8,18 @@ const Slider = () => {
   const [index, setIndex] = useState(0);
   const [translate, setTranslate] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (index === SliderImg.length - 1) {
-        setIndex(0);
-        setTranslate(0);
-      } else {
-        setIndex(index + 1);
-        setTranslate(translate - 100);
-      }
-    }, 2500);
-    return () => clearInterval(interval);
-  }, [index, translate]);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (index === SliderImg.length - 1) {
+  //       setIndex(0);
+  //       setTranslate(0);
+  //     } else {
+  //       setIndex(index + 1);
+  //       setTranslate(translate - 100);
+  //     }
+  //   }, 2500);
+  //   return () => clearInterval(interval);
+  // }, [index, translate]);
   const moveRight = () => {
     if (index === SliderImg.length - 1) {
       setIndex(0);
@@ -58,7 +58,7 @@ const Slider = () => {
                 >
                   <div className={slide.class}>
                     <p className="slide__title">{slide.title}</p>
-                    <Link to="/le-cabinet" className="slide__cta-btn">
+                    <Link to={slide.path} className="slide__cta-btn">
                       {slide.cta}
                     </Link>
                   </div>

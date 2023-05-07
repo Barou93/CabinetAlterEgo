@@ -54,13 +54,13 @@ const Home = () => {
             <div className="home__expertise__values">
               <i className="fa-solid fa-stairs icon"></i>
               <hgroup>
-                <h2>Stratégie</h2>
+                <h2>Stratégies</h2>
                 <h3>
                   Nous travaillons avec vous pour concevoir une stratégie sur
                   mesure, adaptée à vos besoins et à vos objectifs.
                 </h3>
               </hgroup>
-              <Link className="btn-cta" to="/communication">
+              <Link className="btn-cta" to="/strategies">
                 En savoir plus
               </Link>
             </div>

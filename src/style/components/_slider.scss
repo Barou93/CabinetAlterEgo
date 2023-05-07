@@ -60,7 +60,7 @@
     max-width: 600px;
     font-family: $secondaryfont;
     @include mobile-first {
-      top: 55%;
+      top: 15%;
       text-align: center;
       left: 0;
     }
@@ -164,7 +164,7 @@
   right: 0px;
   max-width: 500px;
   @include mobile-first {
-    top: 45%;
+    top: 12%;
 
     max-width: 420px;
     right: auto;
