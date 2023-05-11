@@ -1,7 +1,7 @@
 /** @format */
 
-import React from "react";
-import home from ".././style/assets/img/homepage.jpg";
+//import React from "react";
+import home from ".././style/assets/img/homepage.png";
 import slide1 from ".././style/assets/img/1.jpg";
 import slide2 from ".././style/assets/img/2.jpg";
 //import slide3 from ".././style/assets/img/3.jpg";

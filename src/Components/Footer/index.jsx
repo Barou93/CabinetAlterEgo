@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+//import React from "react";
 import { Link } from "react-router-dom";
 import MobileLogo from "../../style/assets/img/logo/mobile/Logo-Alter-Ego-316x316px-White.png";
 const Footer = () => {

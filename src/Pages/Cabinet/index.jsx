@@ -1,9 +1,9 @@
 /** @format */
 
-import React from "react";
+//import React from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
-import home from "../../style/assets/img/homepage.jpg";
+import home from "../../style/assets/img/homepage.png";
 import MainBackground from "../../Components/MainBackground";
 import { Link } from "react-router-dom";
 

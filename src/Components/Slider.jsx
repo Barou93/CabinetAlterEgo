@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { SliderImg } from "./SliderImg";
 import { Link } from "react-router-dom";
 

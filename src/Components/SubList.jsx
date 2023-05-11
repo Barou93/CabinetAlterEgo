@@ -1,7 +1,7 @@
 /** @format */
 
-import React, { useEffect, useRef, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const SubMenu = ({ item }) => {
@@ -36,9 +36,9 @@ const SubMenu = ({ item }) => {
             item.subList.map((list, index) => {
               return (
                 <li key={index} className="header__sublist__items">
-                  <NavLink to={list.path}>
+                  <Link to={list.path}>
                     <p>{list.title}</p>
-                  </NavLink>
+                  </Link>
                 </li>
               );
             })}

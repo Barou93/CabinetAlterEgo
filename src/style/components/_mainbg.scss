@@ -17,6 +17,7 @@
     display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: grayscale(100%);
   }
   &__content {
     position: absolute;

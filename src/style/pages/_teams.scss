@@ -28,6 +28,7 @@
       flex: 0 0 50%;
       background-size: cover;
       background-position: top;
+      filter: grayscale(100%);
       @include mobile-first {
         //order: 1;
         flex: none;

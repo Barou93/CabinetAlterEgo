@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+//import React from "react";
 import CEO from ".././style/assets/img/6.jpg";
 import Oumar from ".././style/assets/img/oumar.jpg";
 import Dou from ".././style/assets/img/dou-1.jpg";
