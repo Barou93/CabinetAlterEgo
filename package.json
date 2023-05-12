@@ -10,13 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "base64toblob": "^0.0.2",
-    "image-compressor": "^2.0.3",
     "node-sass": "^8.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -27,7 +26,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "sass": "^1.62.1",
-    "vite": "^4.3.2",
-    "vite-plugin-imagemin": "^0.6.1"
+    "vite": "^4.3.2"
   }
 }

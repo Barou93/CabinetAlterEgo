@@ -8,6 +8,7 @@ import Saran from ".././style/assets/img/saranpic.jpg";
 
 export const TeamData = [
   {
+    id: 1,
     class: "team__profil__content",
     image: CEO,
     name: "Maimouna EL OUMRANY",
@@ -19,6 +20,7 @@ export const TeamData = [
   },
 
   {
+    id: 2,
     class: "team__profil__content reverse",
     image: Oumar,
     name: "Oumar MAURET",
@@ -29,6 +31,7 @@ export const TeamData = [
     icon: "fa-brands fa-linkedin team-icon",
   },
   {
+    id: 3,
     class: "team__profil__content",
     image: Saran,
     name: "Saran SIDIBE",
@@ -39,6 +42,7 @@ export const TeamData = [
     icon: "fa-brands fa-linkedin team-icon",
   },
   {
+    id: 4,
     class: "team__profil__content reverse",
     image: Dou,
     name: "Hamadoun NIANGADO",

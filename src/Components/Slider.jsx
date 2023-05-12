@@ -48,22 +48,20 @@ const Slider = () => {
         >
           {SliderImg.map((slide) => {
             return (
-              <>
-                <div
-                  key={slide}
-                  className="slide"
-                  style={{
-                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('${slide.img}')`,
-                  }}
-                >
-                  <div className={slide.class}>
-                    <p className="slide__title">{slide.title}</p>
-                    <Link to={slide.path} className="slide__cta-btn">
-                      {slide.cta}
-                    </Link>
-                  </div>
+              <div
+                key={slide.id}
+                className="slide"
+                style={{
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('${slide.img}')`,
+                }}
+              >
+                <div className={slide.class}>
+                  <p className="slide__title">{slide.title}</p>
+                  <Link to={slide.path} className="slide__cta-btn">
+                    {slide.cta}
+                  </Link>
                 </div>
-              </>
+              </div>
             );
           })}
         </div>

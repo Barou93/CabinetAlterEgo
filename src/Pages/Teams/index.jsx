@@ -26,35 +26,33 @@ const Teams = () => {
           <div className="team__profil__container">
             {TeamData.map((team) => {
               return (
-                <>
-                  <div key={team} className={team.class}>
-                    <div
-                      key={team}
-                      className="team__profil__img"
-                      style={{
-                        backgroundImage: `url('${team.image}')`,
-                      }}
-                    ></div>
-                    <div className="team__profil__infos">
-                      <div className="team__profil__infos__title">
-                        <hgroup>
-                          <h2>{team.name}</h2>
-                          <h3>{team.poste}</h3>
-                        </hgroup>
-                        <p className="team__profil__infos__para">
-                          {team.description}
-                        </p>
-                        <Link
-                          to={team.path}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i className={team.icon}></i>
-                        </Link>
-                      </div>
+                <div key={team.id} className={team.class}>
+                  <div
+                    key={team}
+                    className="team__profil__img"
+                    style={{
+                      backgroundImage: `url('${team.image}')`,
+                    }}
+                  ></div>
+                  <div className="team__profil__infos">
+                    <div className="team__profil__infos__title">
+                      <hgroup>
+                        <h2>{team.name}</h2>
+                        <h3>{team.poste}</h3>
+                      </hgroup>
+                      <p className="team__profil__infos__para">
+                        {team.description}
+                      </p>
+                      <Link
+                        to={team.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className={team.icon}></i>
+                      </Link>
                     </div>
                   </div>
-                </>
+                </div>
               );
             })}
           </div>

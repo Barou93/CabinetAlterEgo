@@ -8,6 +8,7 @@ import slide2 from ".././style/assets/img/2.jpg";
 
 export const SliderImg = [
   {
+    id: 1,
     class: "new-position",
     img: home,
     title:
@@ -16,6 +17,7 @@ export const SliderImg = [
     path: "/le-cabinet",
   },
   {
+    id: 2,
     class: "slide__content",
     img: slide1,
     title:
@@ -24,6 +26,7 @@ export const SliderImg = [
     path: "/notre-equipe",
   },
   {
+    id: 3,
     class: "slide__content new-top",
     img: slide2,
     title: "Nous sommes expert en stratégie de communication et en formation",
