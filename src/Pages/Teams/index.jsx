@@ -5,7 +5,7 @@ import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import MainBackground from "../../Components/MainBackground";
 import TheTeam from "../../style/assets/img/11.jpg";
-import CEO from "../../style/assets/img/6.jpg";
+
 import { Link } from "react-router-dom";
 import { TeamData } from "../../Components/TeamData";
 
@@ -32,6 +32,7 @@ const Teams = () => {
                     className="team__profil__img"
                     style={{
                       backgroundImage: `url('${team.image}')`,
+                      backgroundRepeat: "no-repeat",
                     }}
                   ></div>
                   <div className="team__profil__infos">

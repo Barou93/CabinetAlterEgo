@@ -4,7 +4,7 @@
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import MainBackground from "../../Components/MainBackground";
-import AuditImg from "../../style/assets/img/9.jpg";
+import AuditImg from "../../style/assets/img/homepage.png";
 import { Link } from "react-router-dom";
 
 const Audit = () => {

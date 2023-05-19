@@ -2,8 +2,8 @@
 
 //import React from "react";
 import home from ".././style/assets/img/homepage.png";
-import slide1 from ".././style/assets/img/1.jpg";
-import slide2 from ".././style/assets/img/2.jpg";
+import slide1 from ".././style/assets/img/7.jpg";
+import slide2 from ".././style/assets/img/11.jpg";
 //import slide3 from ".././style/assets/img/3.jpg";
 
 export const SliderImg = [

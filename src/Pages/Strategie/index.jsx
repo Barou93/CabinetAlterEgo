@@ -4,7 +4,7 @@
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import { Link } from "react-router-dom";
-import StratImg from "../../style/assets/img/7.jpg";
+import StratImg from "../../style/assets/img/homepage.png";
 import MainBackground from "../../Components/MainBackground";
 
 const Strategie = () => {
