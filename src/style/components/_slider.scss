@@ -56,12 +56,13 @@
   filter: grayscale(100%);
   &__content {
     position: absolute;
-    top: 30%;
-    left: 150px;
+    top: 60%;
+    left: 50px;
     max-width: 600px;
     font-family: $secondaryfont;
     @include mobile-first {
-      top: 15%;
+      top: 50%;
+
       text-align: center;
       left: 0;
     }
@@ -74,7 +75,7 @@
 
     margin-bottom: 20px;
     @include mobile-first {
-      font-size: 27px;
+      font-size: 22px;
     }
   }
   &__cta-btn {
@@ -165,12 +166,10 @@
   right: 0px;
   max-width: 500px;
   @include mobile-first {
-    top: 12%;
-
+    top: 10%;
     max-width: 420px;
     right: auto;
     text-align: center;
-    margin-left: 20px;
   }
 }
 

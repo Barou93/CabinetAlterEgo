@@ -9,6 +9,7 @@ import ApimLogo from "../../style/assets/img/apim.png";
 import SamaLogo from "../../style/assets/img/sama.png";
 import SupLogo from "../../style/assets/img/la_superette.png";
 import ModenaLogo from "../../style/assets/img/modena.png";
+import CiraLogo from "../../style/assets/img/cira-logo.png";
 
 const Home = () => {
   return (
@@ -117,9 +118,14 @@ const Home = () => {
             <img
               className="sama"
               src={SamaLogo}
-              alt="modena logo de l'entreprise"
+              alt="Sama Money logo de l'entreprise"
             />
-            <img src={SupLogo} alt="modena logo de l'entreprise" />
+            <img src={SupLogo} alt="Superette logo de l'entreprise" />
+            <img
+              className="cira"
+              src={CiraLogo}
+              alt="Cira Mali logo de l'entreprise"
+            />
           </div>
         </div>
       </div>
